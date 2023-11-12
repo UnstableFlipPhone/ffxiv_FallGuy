@@ -1,15 +1,15 @@
-# ffxiv_vfallguy dalamud plugin
+# ffxiv_FallGuy dalamud plugin
 vFallguy dalamud plugin aims to make the Fall Guys Collaboration event in FFXIV less of a hassle
 
 Dalamud repository:
 ```
-https://puni.sh/api/repository/veyn
+https://raw.githubusercontent.com/UnstableFlipPhone/PluginHUB/main/pluginmaster.json
 ```
 
 # How to install
 
 1) Open the Dalamud Settings menu in-game
-2) Under Custom Plugin Repositories, enter ```https://puni.sh/api/repository/veyn``` into the empty box at the bottom
+2) Under Custom Plugin Repositories, enter ```https://raw.githubusercontent.com/UnstableFlipPhone/PluginHUB/main/pluginmaster.json``` into the empty box at the bottom
 3) Click the "+" button.
 4) Click the "Save and Close" button.
 5) You will now be able to find the plugin in your Plugin Installer and install it
