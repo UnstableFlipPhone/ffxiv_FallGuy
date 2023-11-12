@@ -1,4 +1,8 @@
-﻿using Dalamud.Interface.Windowing;
+﻿// Some cleanup.
+// commit fac74f2
+// tag: v0.0.0.5
+
+using Dalamud.Interface.Windowing;
 using Dalamud.Plugin;
 
 namespace vfallguy;
