@@ -23,17 +23,17 @@ public class MainWindow : Window, IDisposable
     private bool _autoJoin;
     private bool _autoLeaveIfNotSolo;
     private bool _autoRun;
-    private bool _showAOEs = true;
-    private bool _showAOEText = true;
-    private bool _showPathfind = true;
+    private bool _showAOEs;
+    private bool _showAOEText;
+    private bool _showPathfind;
     private DateTime _autoJoinAt = DateTime.MaxValue;
     private DateTime _autoLeaveAt = DateTime.MaxValue;
     private int _numPlayersInDuty;
-    private float _autoJoinDelay = 1.0f;
-    private float _autoLeaveDelay = 1;
+    private float _autoJoinDelay = 0.5f;
+    private float _autoLeaveDelay = 3;
     private int _autoLeaveLimit = 1;
 
-    public MainWindow() : base("furfailguy - DEV")
+    public MainWindow() : base("vfailguy")
     {
         ShowCloseButton = false;
         RespectCloseHotkey = false;
@@ -132,7 +132,7 @@ public class MainWindow : Window, IDisposable
         {
             if (Service.ClientState.TerritoryType == 1197)
             {
-                mapType = typeof(MapTest);
+                //mapType = typeof(MapTest);
             }
             else
             {
