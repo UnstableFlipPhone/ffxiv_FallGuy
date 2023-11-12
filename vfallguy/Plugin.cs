@@ -1,7 +1,4 @@
-﻿// Some more pathfinding experiments.
-// commit 8c0fe5e
-
-using Dalamud.Interface.Windowing;
+﻿using Dalamud.Interface.Windowing;
 using Dalamud.Plugin;
 
 namespace vfallguy;
